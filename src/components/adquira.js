@@ -14,7 +14,7 @@ const Adquira = () => {
                 <div className="direita">
                     <p>Te interressou?</p>
                     <div className="btn-rosa">
-                    <a className='' href="">CONFIRA</a>
+                    <a className='' href="https://go.hotmart.com/U99519233O">CONFIRA</a>
                     </div>
                     
                 </div>
