@@ -13,7 +13,7 @@ const Adquira = () => {
                     <ul>
                         <li>+10 aulas em vídeo (nutrição, terapias, práticas)</li>
                         <li>Apostilas em PDF e e-book com +70 receitas</li>
-                        <li>Planner alimentar, checklist e lista de compras</li>
+                        {/* <li>Planner alimentar, checklist e lista de compras</li> */}
                         <li>Guia de substituições saudáveis</li>
                         <li>Assessoria ilimitada no WhatsApp</li>
                     </ul>
@@ -21,7 +21,7 @@ const Adquira = () => {
                     <p className="descricao">🎁 BÔNUS EXCLUSIVOS</p>
                     <ul>
                         <li>E-book de receitas</li>
-                        <li>Planner semanal de autocuidado</li>
+                        {/* <li>Planner semanal de autocuidado</li> */}
                         <li>Suporte ilimitado</li>
                         <li>Meditações guiadas</li>
                         <li>Aulas extras com especialistas</li>
@@ -48,7 +48,7 @@ const Adquira = () => {
                     <p className="descricao">🎁 BÔNUS EXCLUSIVOS</p>
                     <ul>
                         <li>E-book de receitas</li>
-                        <li>Planner semanal de autocuidado</li>
+                        {/* <li>Planner semanal de autocuidado</li> */}
                         <li>Suporte ilimitado</li>
                         <li>Meditações guiadas</li>
                         <li>Aulas extras com especialistas</li>
