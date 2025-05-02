@@ -2,16 +2,16 @@ import { useState } from 'react';
 
 const SobreMadu = () => {
     return(
-        <div className="container-sobre" id='sobre'>
-            <div className="row row-sobre">
-                <div className="col-esquerda">
+        <div className="container-sobre-madu" id='sobre-madu'>
+            <div className=" row-sobre-madu">
+                <div className="col-esquerda-madu">
                     <img src="/imgs/madu.png" width={380}  alt="" />
                 </div>
-                <div className="col-direita">
-                    <div className="pergunta">
+                <div className="col-direita-madu">
+                    <div className="pergunta-madu">
                         <h2>QUEM É A NUTRICIONISTA MARIA EDUARDA?</h2>
                     </div>
-                    <div className="sobre">
+                    <div className="sobre-madu">
                         <p>Minha jornada na saúde começou em 2020, no meio do turbilhão da pandemia, quando iniciei minha graduação em 
                             Nutrição. Foi também nesse período que senti o chamado para um cuidado mais profundo e integral, o que me levou
                              a me formar em terapias holísticas, como auriculoterapia e aromaterapia, ainda durante a faculdade.
