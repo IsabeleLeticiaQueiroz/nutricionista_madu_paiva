@@ -21,7 +21,7 @@ const Adquira = () => {
                     <p className="descricao">🎁 BÔNUS EXCLUSIVOS</p>
                     <ul>
                         <li>E-book de receitas</li>
-                        {/* <li>Planner semanal de autocuidado</li> */}
+                        <li>Planner semanal</li>
                         <li>Suporte ilimitado</li>
                         <li>Meditações guiadas</li>
                         <li>Aulas extras com especialistas</li>
@@ -42,7 +42,7 @@ const Adquira = () => {
                         <li>Kit impresso (apostila + e-book + planner físico)</li>
                         <li>Chá funcional, floral de Bach e óleo essencial</li>
                         <li>Cartão com mensagem personalizada</li>
-                        <li>Assessoria ilimitada no WhatsApp</li>
+                        {/* <li>Assessoria ilimitada no WhatsApp</li> */}
                     </ul>
 
                     <p className="descricao">🎁 BÔNUS EXCLUSIVOS</p>
