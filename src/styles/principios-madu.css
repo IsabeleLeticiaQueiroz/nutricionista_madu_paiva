@@ -1,0 +1,125 @@
+.rosa-linha {
+    height: 10px;
+    background-color: #FFD7DE;
+}
+
+.container-principios {
+    background-image: url('/imgs/principios-madu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Urbanist;
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+
+.row-titulo {
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.row-principios {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.col-principio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+.col-principio-prim {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: none;
+    padding-left: 20px;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.esquerda img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.direita h4, .direita p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.direita p {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .container-principios {
+        background-image: url('/imgs/sobre-phone.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        align-items: center;
+        padding-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .row-principios {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .col-principio, .col-principio-prim {
+        flex-direction: column;
+        align-items: center;
+        border-left: none;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .esquerda img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .row-titulo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    .direita {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Esconder a rosa-linha no responsivo */
+    .rosa-linha {
+        display: none;
+    }
+
+    .direita p {
+        padding-bottom: 20px;
+    }
+}

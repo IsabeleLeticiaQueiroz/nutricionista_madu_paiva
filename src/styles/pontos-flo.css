@@ -1,0 +1,100 @@
+.row-pontos h2 {
+    font-family: Vendya;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: #4B5046;
+}
+
+.container-pontos-prin {
+    padding: 20px;
+    background-image: url(/imgs/marcadagua.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards na linha */
+    gap: 20px; /* Espaçamento entre os cards */
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #A0BD7B;
+    color: white;
+    font-family: Urbanist;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    border: none;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.icon-pontos {
+    width: 40px;
+    height: 40px;
+}
+.row-fotos {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 0 300px; /* Padding lateral como o restante da página */
+}
+
+.row-fotos .col:first-child {
+    flex: 3; 
+}
+
+.row-fotos .col:last-child {
+    flex: 2; /* Mais estreita */
+}
+
+.row-fotos .col img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+@media (max-width: 768px) {
+    .row-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 200px;
+    }
+
+    .row-fotos {
+        flex-direction: column;
+        padding: 0 20px; /* Reduz o padding lateral no mobile */
+    }
+
+    .row-fotos .col {
+        flex: unset; /* Remove o peso do flex */
+        margin-bottom: 20px; /* Espaço entre as imagens */
+    }
+
+    .row-fotos .col img {
+        height: auto; /* Altura automática no mobile */
+    }
+}

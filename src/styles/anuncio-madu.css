@@ -1,0 +1,100 @@
+.container-anuncio{
+    font-family: Urbanist;
+}
+.row-title-anuncio{
+    padding-top: 30px;
+    color: #707070;
+    padding-left: 20px;
+}
+.row-logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.row-desc{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #4B5046;
+    max-width: 800px; /* Defina a largura máxima */
+    width: 100%; /* Garante que ocupe 100% da largura disponível, mas com o limite do max-width */
+    margin: 0 auto; /* Centraliza a div */
+    padding: 0 20px; /* Adiciona um pequeno espaçamento lateral */
+}
+
+.row-btn-link a {
+    color: #4B5046;
+    background-color: #F5F5F5;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 20px;
+    height: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+.row-btn-link{
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+/* Responsivo: centraliza tudo no celular */
+@media (max-width: 768px) {
+    .container-anuncio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .row-title-anuncio {
+        padding-left: 0;
+    }
+
+    .row-btn-link a {
+        width: 100%;
+        max-width: 300px;
+    }
+    .row-logo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-top: -0px;
+        width: 200;
+    }
+    .row-btn-link{
+        padding-top: 10px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .row-btn-link a {
+        color: #4B5046;
+        background-color: #F5F5F5;
+        width: 400px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 20px;
+        height: 50px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra suave */
+        font-size: 14px;
+    }
+}

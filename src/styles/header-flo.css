@@ -1,0 +1,89 @@
+/* Estilos gerais para o cabeçalho */
+.header-flo {
+    background-image: url('/imgs/header-flo.png');
+    padding: 10px 20px;
+    font-family: Urbanist, sans-serif;
+    font-size: 18px;
+}
+
+.nav-flo {
+    display: flex;
+    justify-content: flex-end; /* Ícone de hambúrguer alinhado à direita */
+    align-items: center;
+    gap: 20px; /* Ajuste o espaço entre o hambúrguer e o conteúdo, se necessário */
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 200px;
+    padding-right: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #4B5046;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.rosinha{
+    color: #D1A8B0 !important;
+}
+
+.row-logo-flo{
+    padding-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* Estilos do menu hambúrguer */
+.menu-toggle {
+    background: none;
+    border: none;
+    display: block; /* O ícone de hambúrguer será exibido sempre, mas escondido no desktop */
+    cursor: pointer;
+}
+
+.menu-toggle img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 80px; /* Ajuste conforme a altura da navbar */
+        right: 20px;
+        background-color: #f8f8f8;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        z-index: 1000;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    /* Esconder o hambúrguer no desktop */
+    .menu-toggle {
+        display: block;
+    }
+}
+
+/* Esconder o hambúrguer no desktop */
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none; /* Esconde o hambúrguer em telas maiores */
+    }
+}

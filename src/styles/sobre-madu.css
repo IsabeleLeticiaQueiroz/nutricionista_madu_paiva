@@ -1,0 +1,83 @@
+.container-sobre {
+    width: 100%;
+    background-image: url('/imgs/back-sobre-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 80px;
+    font-family: Urbanist;
+    color: #2D4909;
+    padding-bottom: 0;
+}
+
+.row-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.col-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+}
+
+.col-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+h2 {
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.sobre p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .container-sobre {
+        padding: 20px 10px;
+        background-image: url('/imgs/back-sobre-phone.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .row-sobre {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-esquerda, .col-direita {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 10px; /* Adiciona um pouco de espaçamento interno para os itens */
+    }
+
+    .col-esquerda img {
+        width: 80%;
+        max-width: 180px;
+    }
+
+    h2 {
+        text-align: center; /* Centraliza o título */
+    }
+
+    .sobre p {
+        text-align: center; /* Centraliza o texto */
+    }
+}

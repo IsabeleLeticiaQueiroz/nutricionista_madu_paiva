@@ -1,0 +1,31 @@
+.container-footer {
+    background-color: #D1D6BC;
+    padding: 20px 0;
+}
+
+.row-footer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-wrap: wrap; /* permite quebra de linha */
+}
+
+.row-footer img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 600px) {
+    .row-footer {
+        gap: 30px; /* reduz o espaçamento entre ícones */
+    }
+
+    .row-footer img {
+        width: 25px; /* diminui um pouco o tamanho se quiser */
+    }
+}
