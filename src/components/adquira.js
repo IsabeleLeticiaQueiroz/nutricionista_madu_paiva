@@ -28,7 +28,7 @@ const Adquira = () => {
                     </ul>
 
                     <div className="btn-rosa">
-                        <a href="https://go.hotmart.com/U99519233O">CONFIRA</a>
+                        <a href="https://pay.hotmart.com/U99519233O?off=2r0xl34q">CONFIRA</a>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@ const Adquira = () => {
                     </ul>
 
                     <div className="btn-rosa">
-                        <a href="https://go.hotmart.com/U99519233O">CONFIRA</a>
+                        <a href="https://pay.hotmart.com/U99519233O?off=n6cetsbb">CONFIRA</a>
                     </div>
                 </div>
             </div>
