@@ -51,8 +51,8 @@
 }
 
 .esquerda img {
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
 }
 
