@@ -8,8 +8,8 @@ const Adquira = () => {
                 <h2>Adquira já!</h2>
             </div>
             <div className="row-final">
-                <div className="esquerda">
-                    <img src="/imgs/RECEBA NOSSA (1).png" width={400} alt="" />
+                <div className="esquerda-final">
+                    <img src="/imgs/RECEBA NOSSA (1).png" className='img-esquerda' alt="" />
                 </div>
                 <div className="direita">
                     <p>Te interressou?</p>

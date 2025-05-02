@@ -60,6 +60,11 @@
     color: white    ;
     font-size: 18px;
 }
+
+.img-esquerda{
+    width: 400px;
+    height: auto;
+}
 @media (max-width: 768px) {
     .row-final {
         justify-content: center;
@@ -85,8 +90,9 @@
         max-width: 250px;
     }
 
-    .row-final img {
-        width: 90%;
+    /* Altere a imagem diretamente pela classe img-esquerda */
+    .img-esquerda {
+        width: 90%; /* ou o tamanho desejado */
         max-width: 300px;
         height: auto;
     }
