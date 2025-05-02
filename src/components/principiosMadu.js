@@ -1,5 +1,4 @@
     import { useState } from 'react';
-    import '../styles/principios-madu.css';
     const PrincipiosMadu = () => {
         return(
             <>

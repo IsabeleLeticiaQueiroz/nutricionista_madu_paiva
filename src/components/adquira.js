@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/adquira-flo.css';
+
 
 const Adquira = () => {
     return (

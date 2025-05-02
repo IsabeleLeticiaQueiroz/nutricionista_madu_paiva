@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/anuncio-madu.css';
 const Anuncio = () => {
     return(
         <div className="container-anuncio" id='anuncio'>

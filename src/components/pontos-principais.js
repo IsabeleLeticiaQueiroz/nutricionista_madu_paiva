@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/pontos-flo.css';
 
 const Pontos = () => {
     return (

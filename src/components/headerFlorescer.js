@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/header-flo.css';
 
 const HeaderFlo = () => {
     const [menuOpen, setMenuOpen] = useState(false);

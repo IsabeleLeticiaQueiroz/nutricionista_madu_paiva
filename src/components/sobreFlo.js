@@ -1,5 +1,4 @@
     import { useState } from 'react';
-    import '../styles/sobre-flo.css';
 
     const SobreFlo   = () => {
         return(

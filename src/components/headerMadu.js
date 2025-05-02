@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/header-madu.css';
 
 const HeaderMadu = () => {
     const [menuOpen, setMenuOpen] = useState(false);

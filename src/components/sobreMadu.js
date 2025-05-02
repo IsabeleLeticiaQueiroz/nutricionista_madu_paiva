@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/sobre-madu.css';
 
 const SobreMadu = () => {
     return(
