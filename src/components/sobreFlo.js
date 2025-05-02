@@ -17,7 +17,6 @@
                                 FLORESCER é um programa completo que une nutrição clínica funcional, alimentação anti-inflamatória, terapias integrativas 
                                 (como aromaterapia, florais de Bach, cromoterapia, auriculoterapia), além de práticas de autoconhecimento e reconexão espiritual.
                                 Aqui, o foco não é o emagrecimento como estética, mas como consequência natural de uma vida com mais consciência, energia e equilíbrio.
-                                
                             </p>
                         </div>
                         <div className="row-svg">

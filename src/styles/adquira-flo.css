@@ -1,18 +1,18 @@
-.container-adquira{
+.container-adquira {
     background-image: url('/imgs/adquira.png');
     background-size: cover;
     background-repeat: no-repeat;
-    
+    padding-bottom: 70px;
 }
 
-.row-adquira h2{
+.row-adquira h2 {
     padding-top: 70px;
     font-family: Vendya;
     font-size: 60px;
     color: #6C914E;
 }
 
-.row-adquira{
+.row-adquira {
     text-align: center;
     justify-content: center;
     display: flex;
@@ -21,22 +21,67 @@
 
 .row-final {
     padding-top: 70px;
-    text-align: center;
-    justify-content: center;
     display: flex;
-    align-items: center;
-    gap: 50px; /* espaçamento entre esquerda e direita */
-    padding-bottom: 50PX;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-
-.row-final p{
+.card-plano {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 320px;
     font-family: Urbanist;
-    color: #4B5046;
-    font-size: 30PX;
-    
-
+    transition: transform 0.3s ease;
 }
+
+.card-plano:hover {
+    transform: scale(1.03);
+}
+
+.card-plano h3 {
+    color: #6C914E;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card-plano .descricao {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4B5046;
+    font-weight: bold;
+}
+
+.card-plano ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card-plano li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 10px;
+    color: #4B5046;
+    font-size: 18px;
+}
+
+.card-plano li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #6C914E;
+    font-size: 16px;
+}
+
+.destaque {
+    border: 2px solid #FAB2C0;
+    background-color: #fff5f7;
+}
+
 .btn-rosa {
     background-color: #FAB2C0;
     width: 200px;
@@ -48,32 +93,29 @@
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: background-color 0.3s ease;
     cursor: pointer;
-    
+    margin: 0 auto;
 }
 
 .btn-rosa:hover {
-    background-color: #f98ca8; /* tom mais escuro no hover */
+    background-color: #f98ca8;
 }
 
-.btn-rosa a{
+.btn-rosa a {
     text-decoration: none;
-    color: white    ;
+    color: white;
     font-size: 18px;
 }
 
-.img-esquerda{
+.img-esquerda {
     width: 400px;
     height: auto;
 }
+
 @media (max-width: 768px) {
     .row-final {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        text-align: center;
         flex-direction: column;
         gap: 20px;
-        padding: 40px 20px; /* padding menor e com espaçamento lateral */
+        padding: 40px 20px;
     }
 
     .row-adquira h2 {
@@ -81,8 +123,9 @@
         padding-top: 40px;
     }
 
-    .row-final p {
-        font-size: 24px;
+    .card-plano {
+        width: 100%;
+        max-width: 320px;
     }
 
     .btn-rosa {
@@ -90,9 +133,8 @@
         max-width: 250px;
     }
 
-    /* Altere a imagem diretamente pela classe img-esquerda */
     .img-esquerda {
-        width: 90%; /* ou o tamanho desejado */
+        width: 90%;
         max-width: 300px;
         height: auto;
     }

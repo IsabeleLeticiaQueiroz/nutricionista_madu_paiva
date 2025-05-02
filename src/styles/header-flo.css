@@ -1,6 +1,8 @@
 /* Estilos gerais para o cabeçalho */
 .header-flo {
     background-image: url('/imgs/header-flo.png');
+    background-size: cover;
+    background-repeat: repeat;
     padding: 10px 20px;
     font-family: Urbanist, sans-serif;
     font-size: 18px;

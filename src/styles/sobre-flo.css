@@ -65,6 +65,8 @@ display: flex;
 @media (max-width: 480px) {
     .pergunta-flo h2 {
         font-size: 26px;
+        font-family:Vendya;
+        font-weight: 500;
     }
 
     .sobre-p p {
