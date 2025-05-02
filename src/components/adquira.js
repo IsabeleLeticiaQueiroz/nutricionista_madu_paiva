@@ -15,7 +15,7 @@ const Adquira = () => {
                         <li>Apostilas em PDF e e-book com +70 receitas</li>
                         {/* <li>Planner alimentar, checklist e lista de compras</li> */}
                         <li>Guia de substituições saudáveis</li>
-                        <li>Assessoria ilimitada no WhatsApp</li>
+                        
                     </ul>
 
                     <p className="descricao">🎁 BÔNUS EXCLUSIVOS</p>
