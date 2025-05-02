@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importando o CSS do Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Urbanist } from 'next/font/google';
 
 const urbanist = Urbanist({
@@ -10,8 +10,8 @@ const urbanist = Urbanist({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={urbanist.variable}>
+    <div className={urbanist.variable}>
       <Component {...pageProps} />
-    </main>
+    </div>
   );
 }
