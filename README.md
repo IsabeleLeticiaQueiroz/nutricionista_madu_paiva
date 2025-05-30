@@ -19,22 +19,23 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. Clone este repositório:
 
 git clone https://github.com/IsabeleLeticiaQueiroz/nutricionista_madu_paiva.git
+
 cd nutricionista_madu_paiva
 
 2. Instale as dependências:
 
 npm install
-# ou
+ou
 yarn
-# ou
+ou
 pnpm install
 
 3. Rode o servidor de desenvolvimento:
 
 npm run dev
-# ou
+ou
 yarn dev
-# ou
+ou
 pnpm dev
 
 4. Abra no navegador http://localhost:3000 para ver a landing page em ação.
